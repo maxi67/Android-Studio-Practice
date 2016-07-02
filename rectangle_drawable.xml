@@ -9,6 +9,7 @@
         android:bottomLeftRadius="5sp"
         android:bottomRightRadius="5sp" />
 
+<!--決定顏色的地方-->
     <solid android:color="#33AAAA"/>
 
 </shape>
