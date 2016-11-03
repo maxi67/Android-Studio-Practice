@@ -7,6 +7,21 @@
 
 我比較常用的是RelativeLayout跟LinearLayout
 
-> Relative是元件之間都是相對排列
-> 很適合沒有設計圖，想到一個元件加一個的開發模式
-> 要注意設定屬性參考的對象不能出現晚於自己(XML很重先後順序)
+## RelativeLayout ##
+元件之間都是相對排列，所以可能發生元件重疊的問題  
+很適合沒有設計圖，想到一個元件加一個的開發模式  
+要注意設定屬性參考的對象不能出現晚於自己(XML很重先後順序)  
+相關屬性([ ]內是屬性值內容):
++ alignStart/End/Top/Bottom [某元件]: 與某元件的左/右/上/下對齊  
++ alignParentStart/End/Top/Bottom [true/false]: 對主畫面靠左/右/上/下對齊  
++ layout_toStartOf/toEndOf/above/below [某元件]: 在某元件之左/右/上/下方
+
+
+<hr>
+## LinearLayout ##
+元件的排列方向只會是由左而右(水平horizonal)或是由上而下(垂直vertical)  
+所以每一個元件一定是依徐該規則排在前一個後面，不會有重疊問題  
+相關屬性([]內是屬性值內容):
++ orientation [horizonal/vertical]: 元件的排列方向  
+
+
