@@ -1,18 +1,23 @@
 # Button's Action (Click) #
 說到Android Studio  
-在UI上最常用也最基本的元件  
-非按鈕莫屬  
+在UI上最常用也最基本的元件  
+絕對非按鈕莫屬  
 
 我們在畫面佈局檔(Layout xml)上  
-擺了按鈕元件，如果不加上動作程式會沒有任何效果  
-所以以下簡述可以如何撰寫  
+擺了按鈕元件，如果不加上動作程式會沒有任何效果  
+動作程式的撰寫方式最基本有兩種  
 
 ## 1.用元件onClick屬性 ##
 在layout檔布局時，打上以下的宣告:  
 ```XML
       android:onClick="functionName"  
 ```
-接著在activity程式碼內(java檔)，宣告該function名的函式(參數定義一個View型別的變數)即可  
+接著在activity內(.java)，宣告該function名的函式(參數:View型別的變數)即可，如:  
+```Java
+      public void functionName(View view){
+        //點擊按鈕後會執行的動作
+      }
+```
 
 ## 2.用OnClickListener監聽器 ##
 假設有一個Button要定義事件，它的id叫btn  
