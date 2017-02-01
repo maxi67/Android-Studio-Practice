@@ -1,7 +1,5 @@
 # Button's Action (Click) #
-說到Android Studio  
-在UI上最常用也最基本的元件  
-絕對非按鈕莫屬  
+說到Android Studio，在UI上最常用也最基本的元件，絕對非按鈕莫屬  
 
 我們在畫面佈局檔(Layout xml)上擺了按鈕元件，如果不加上動作程式會沒有任何效果  
 而以點擊事件(Click)為例的動作程式，撰寫方式最基本有兩種 
