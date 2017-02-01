@@ -33,9 +33,7 @@
 也可以把一個TableRow看成是一個水平的LinearLayout  
 只是預設的寬就是match_parent(填滿畫面)  
 
-另外，在每一個TableRow內，可以為每個元件定義layout_weight屬性指定權重值   
-可以幫它們的寬分配比例，以節省為每個元件分別定義的麻煩  
-像是如果只有兩個Button，就同時定義android:layout_weight為1  
-結果如下:  
+另外，在每一個TableRow內，可以為每個元件定義layout_weight屬性指定權重值，可以幫它們的寬分配比例，以節省為每個元件分別定義的麻煩。 
+像是只有兩個Button，就同時定義android:layout_weight為1，結果如下:  
 ![image](https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/15940682_1381031928583323_1945664001419339054_n.png?oh=8c5c60c91eb5c9b9ba1ec922125a82fe&oe=58E2630E)  
 我加上背景顏色凸顯TableRow的範圍  
